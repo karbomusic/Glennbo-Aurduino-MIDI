@@ -82,5 +82,8 @@ void loop() {
   for (byte i = 0; i < buttonCount; i++) {
     checkButton(buttons[i]);
   }
-  delay(1);
+
+ // delay loop by 1ms if needed, not really necessary but can help with stability on some boards.
+ // delay(1);
+
 }
