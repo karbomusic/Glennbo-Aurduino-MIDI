@@ -82,4 +82,5 @@ void loop() {
   for (byte i = 0; i < buttonCount; i++) {
     checkButton(buttons[i]);
   }
+  delay(1);
 }
